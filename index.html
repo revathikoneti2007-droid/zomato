@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zomato Login Page</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:#f8f8f8;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+    }
+
+    .login-container{
+        width:380px;
+        background:#fff;
+        padding:35px;
+        border-radius:15px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.2);
+        text-align:center;
+    }
+
+    .logo{
+        color:#e23744;
+        font-size:45px;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+
+    .title{
+        font-size:22px;
+        margin-bottom:25px;
+        color:#333;
+    }
+
+    .input-box{
+        width:100%;
+        padding:12px;
+        margin-bottom:15px;
+        border:1px solid #ccc;
+        border-radius:8px;
+        font-size:16px;
+    }
+
+    .login-btn{
+        width:100%;
+        padding:12px;
+        border:none;
+        border-radius:8px;
+        background:#e23744;
+        color:white;
+        font-size:18px;
+        cursor:pointer;
+    }
+
+    .login-btn:hover{
+        background:#c92c3a;
+    }
+
+    .signup{
+        margin-top:20px;
+        color:#555;
+    }
+
+    .signup a{
+        text-decoration:none;
+        color:#e23744;
+        font-weight:bold;
+    }
+
+    .food-images{
+        display:flex;
+        justify-content:center;
+        gap:10px;
+        margin-top:25px;
+    }
+
+    .food-images img{
+        width:80px;
+        height:80px;
+        border-radius:10px;
+        object-fit:cover;
+    }
+</style>
+</head>
+<body>
+
+<div class="login-container">
+
+    <div class="logo">Zomato</div>
+    <div class="title">Login to continue</div>
+
+    <form>
+        <input type="email" class="input-box" placeholder="Enter Email" required>
+
+        <input type="password" class="input-box" placeholder="Enter Password" required>
+
+        <button type="submit" class="login-btn">
+            Login
+        </button>
+    </form>
+
+    <div class="signup">
+        Don't have an account?
+        <a href="#">Sign Up</a>
+    </div>
+
+    
+
+
+
+</body>
+</html>
